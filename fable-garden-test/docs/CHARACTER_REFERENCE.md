@@ -1,0 +1,2 @@
+# Character reference
+Tortoise: sage green body, ochre segmented shell, low rounded proportions. Hare: warm brown fur, long upright ears, no clothes. Fox is rust orange when used. Use forest green, ochre gold, cream, and muted brown, with dark ink-like outlines and a cream double botanical border. Landscapes use a curved ochre path and rounded green trees; the finish is a simple ribbon. Do not change the tortoise shell grid, hare color, scale, clothing, or add modern objects.
