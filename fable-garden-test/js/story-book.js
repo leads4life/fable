@@ -6,7 +6,10 @@
         var copy=document.createElement('section'),art=document.createElement('section'),h=document.createElement('h2');
         copy.className='book-copy'; art.className='book-art'; h.textContent=page.label; copy.append(h);
         page.sentences.forEach(function(sentence,index){
-          var paragraph=document.createElement('p'); paragraph.textContent=sentence;
+          var paragraph=document.createElement('p'); sentence.split(/(\s+)/).forEach(function(part){
+            if(!part.trim()){paragraph.append(document.createTextNode(part));return;}
+            var word=document.createElement('span');word.className='spoken-word';word.textContent=part;paragraph.append(word);
+          });
           if(index===0) paragraph.className='currently-spoken';
           copy.append(paragraph);
         });
