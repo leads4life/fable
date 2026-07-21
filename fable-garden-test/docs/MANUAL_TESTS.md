@@ -1,0 +1,12 @@
+# Manual tests
+- [ ] Open `index.html` directly; homepage, logo, hero, and fable card load.
+- [ ] Header navigation works; mobile menu opens/closes; Escape closes it.
+- [ ] Search works, including `?q=patience`; test a no-result query.
+- [ ] Fable page opens; nested CSS, JavaScript, SVG, and breadcrumb load.
+- [ ] Save/remove a favorite; check favorites; export and clear it.
+- [ ] Recently viewed updates and clears.
+- [ ] Copy moral; share or copy fallback; print preview.
+- [ ] Light, dark, and system themes work; test storage-disabled fallback.
+- [ ] Keyboard navigation and focus indicators work; reduced motion works.
+- [ ] Check 320px, tablet, and desktop layouts; no broken links or console errors.
+- [ ] Open `tests.html`; all browser tests pass.
