@@ -18,7 +18,7 @@
         image.dataset.imageFilename=page.image.split('/').pop(); image.dataset.imageSize='1280x720'; image.dataset.imagePrompt=page.imagePrompt;
         art.append(image); root.replaceChildren(copy,art); root.classList.remove('turn');
       };
-      if(root.children.length){ root.classList.add('turn'); setTimeout(draw,780); } else { draw(); }
+      if(root.children.length){ root.classList.add('turn'); setTimeout(draw,1400); } else { draw(); }
     }
   };
 })();
