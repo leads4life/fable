@@ -10,7 +10,6 @@
             if(!part.trim()){paragraph.append(document.createTextNode(part));return;}
             var word=document.createElement('span');word.className='spoken-word';word.textContent=part;paragraph.append(word);
           });
-          if(index===0) paragraph.className='currently-spoken';
           copy.append(paragraph);
         });
         var image=document.createElement('img');
