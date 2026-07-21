@@ -1,0 +1,1 @@
+(function(){var F=window.FableGarden=window.FableGarden||{};document.addEventListener('DOMContentLoaded',function(){F.navigation.init();F.theme.init();F.search.init();F.favorites.init();F.recent.init();F.share.init();document.querySelectorAll('[data-year]').forEach(function(x){x.textContent=F.utilities.year()})})})();
